@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Fragment.settingsFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarsetting"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admin"
+            android:fontFamily="@font/gotham"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="20sp">
+        </TextView>
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <RelativeLayout
+        android:id="@+id/donhang"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        tools:ignore="OnClick">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:text="Quản lý đơn hàng"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_margin="6dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/back"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/thongke"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        tools:ignore="OnClick">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:text="Thống kê"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_margin="6dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/back"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/quanlysp"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        tools:ignore="OnClick">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:text="Quản lý sản phẩm"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_margin="6dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/back"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/dangxuat"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        tools:ignore="OnClick">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:text="Đăng xuất"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_margin="6dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/back"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+</LinearLayout>

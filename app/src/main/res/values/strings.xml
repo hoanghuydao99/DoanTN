@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DoanTN</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="all_phones">Các loại sản phẩm</string>
+    <string name="view_all">Xem tất cả</string>
+</resources>

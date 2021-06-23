@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/store"
+        android:icon="@drawable/ic_baseline_store_24"
+        android:title="Cửa hàng"
+        app:cnb_textColor="#000"
+        app:cnb_iconColor="#000"
+        app:cnb_backgroundColor="#fff"/>
+    <item
+        android:id="@+id/favorite"
+        android:icon="@drawable/ic_favorite"
+        android:title="Yêu thích"
+        app:cnb_textColor="#000"
+        app:cnb_iconColor="#000"
+        app:cnb_backgroundColor="#fff"/>
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_baseline_person_pin_24"
+        android:title="Tôi"
+        app:cnb_textColor="#000"
+        app:cnb_iconColor="#000"
+        app:cnb_backgroundColor="#fff"/>
+    <item
+        android:id="@+id/admin"
+        android:icon="@drawable/admin"
+        android:title="Admin"
+        app:cnb_textColor="#000"
+        app:cnb_iconColor="#000"
+        app:cnb_backgroundColor="#fff"/>
+</menu>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/back1"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/amaranth"
+            android:text="Thêm sản phẩm"
+            android:textColor="#000000"
+            android:textSize="20sp"></TextView>
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <ImageView
+        android:id="@+id/imgdangbai"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_below="@id/icon"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@android:drawable/ic_menu_report_image">
+
+    </ImageView>
+
+    <EditText
+        android:id="@+id/edttensp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgdangbai"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:hint="Nhập tên sản phẩm">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/edtgiasp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edttensp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:hint="Nhập giá sản phẩm">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/edtsoluong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtgiasp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:hint="Nhập số lượng">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/edtmota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtsoluong"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:hint="Nhập mô tả">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/edtidloaisp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtmota"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:hint="Nhập idloaisp">
+
+    </EditText>
+
+
+    <Button
+        android:id="@+id/btthem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtidloaisp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/vuong"
+        android:fontFamily="@font/gotham"
+        android:text="Xác nhận"
+        android:textAllCaps="false"
+        android:textSize="17dp">
+
+    </Button>
+</LinearLayout>

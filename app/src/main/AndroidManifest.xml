@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hoangdao.doantn">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Danhgia" />
+        <activity android:name=".qldonhangAdmin" />
+        <activity android:name=".qlbaidang" />
+        <activity android:name=".Suasp_Admin" />
+        <activity android:name=".chitietspadmin" />
+        <activity android:name=".Themsp" />
+        <activity android:name=".QLsanpham" />
+        <activity android:name=".QLdonhangKH" />
+        <activity android:name=".Activity.Themdiachi" />
+        <activity android:name=".Activity.Sodiachi" />
+        <activity android:name=".Activity.DangBai" />
+        <activity android:name=".Activity.Dathang" />
+        <activity android:name=".Activity.TimKiem" />
+        <activity android:name=".Activity.GioHang" />
+        <activity android:name=".Activity.LoaispActivity" />
+        <activity android:name=".Activity.ChitietsanphamActivity" />
+        <activity android:name=".Activity.DangkyActivity" />
+        <activity android:name=".Activity.Homepage" />
+        <activity android:name=".Activity.ThongtincanhanActivity" />
+        <activity android:name=".TimkiemAd"></activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.IntroActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

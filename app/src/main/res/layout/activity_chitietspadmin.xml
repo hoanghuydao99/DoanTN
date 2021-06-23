@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Activity.ChitietsanphamActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/back"
+            android:layout_margin="10dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/back1">
+        </ImageView>
+        <EditText
+            android:id="@+id/tvtensp"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:hint="tensanpham"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="23dp"
+            android:fontFamily="@font/gotham"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </EditText>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/hai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp">
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imgsanpham"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@mipmap/ic_launcher"></ImageView>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp">
+        <EditText
+            android:layout_centerHorizontal="true"
+            android:id="@+id/tvgiasp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotham"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:hint="giasp">
+        </EditText>
+        <EditText
+            android:gravity="center"
+            android:layout_margin="13dp"
+            android:id="@+id/tvsoluong"
+            android:fontFamily="@font/gotham"
+            android:textSize="20dp"
+            android:hint="motachitiet"
+            android:layout_below="@id/tvgiasp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </EditText>
+
+        <EditText
+
+            android:gravity="center"
+            android:id="@+id/tvmota"
+            android:fontFamily="@font/gotham"
+            android:textSize="20dp"
+            android:hint="motachitiet"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/tvsoluong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </EditText>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp">
+        <Button
+
+            android:id="@+id/capnhap"
+            android:background="@drawable/vuong"
+            android:fontFamily="@font/gotham"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:text="Cập nhập"
+            android:textSize="18dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+    </RelativeLayout>
+
+</RelativeLayout>
